@@ -14,9 +14,17 @@
 
 ![Configuracion Mongo](images/configMongo.png)
 
+A diferencia importante es el hecho de que SQL trabaja de manera **sincrona**, mientras que Mongo es **asincrono**.
+
+Como el constructor no puede ser asincrono, no realizamos la conexion dentro de este como en el modulo SQL, sino que
+creamos una funcion asincrona que monte la conexion, para luego llamarla cuando se tenga que realizar alguna operación.
+
 ![Configuracion Mongo](images/constructor.png)
 
+El sistema de llamadas es similar a SQL, solo cambia el nombre de las funciones para realizar acciones y que tienen un
+identificador unico propio (_id).
 
+![Operaciones Mongo](images/actions.png)
 
 ## Cambios para la Autenticación JWT:
 ### Backend:
