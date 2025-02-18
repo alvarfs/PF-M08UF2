@@ -6,3 +6,5 @@
 - **mw/auth.js:** Comprueba que el usuario tenga un token valido para realizar una operación.
 - **.env:** Contiene la clave secreta.
 
+- **routes.js**:
+![Cambios routes](images/routes.png)
