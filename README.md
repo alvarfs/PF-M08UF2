@@ -35,13 +35,13 @@ identificador unico propio (_id).
   
 ![Cambios routes](images/routes.png)
 
-Cuando se realize una llamada POST a /api/login, entrara a la funcion **generateToken**, que tratara de verificar el usuario.
+Cuando se realize una llamada **POST** a **/api/login**, entrara a la funcion **generateToken**, que tratara de verificar el usuario.
 
-Si se hace una llamada de tipo POST, DELETE o PUT a /api/books, entrara a la funcion **jwtAuth**, que tratara de verificar el token.
+Si se hace una llamada de tipo **POST, DELETE o PUT** a /api/books, entrara a la funcion **jwtAuth**, que tratara de verificar el token.
 
 ### Frontend:
 - **login.html:** Pagina donde el usuario introduce sus credenciales.
-- **login.js:** Hace la llamada al Backend para tratar de generar el tokenen base a las credenciales del usuario.
+- **login.js:** Hace la llamada al Backend para tratar de generar el token en base a las credenciales del usuario.
 - **script.js:**
 
 ![Cambios script](images/authorization.png)
