@@ -5,7 +5,7 @@
 ![Estructura](images/arquitectura.png)
 
 - **config:** Contiene los datos de configuración del mongo/sql.
-- **controllers:** Se encargan de manejar las peticiones que el usuario realiza.
+- **controllers:** Se encarga de manejar las peticiones que el usuario realiza.
 - **models:** Se encarga de interactuar con la base de datos.
 - **mw:** Verifica las peticiones antes de llegar a los controladores.
 - **routes:** Define las rutas a los controladores.
