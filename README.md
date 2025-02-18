@@ -24,7 +24,7 @@ creamos una funcion asincrona que monte la conexion, para luego llamarla cuando 
 El sistema de llamadas es similar a SQL, solo cambia el nombre de las funciones para realizar acciones y que tienen un
 identificador unico propio (_id).
 
-![Operaciones Mongo](images/actions.png)
+![Operaciones Mongo](images/acciones.png)
 
 ## Cambios para la Autenticación JWT:
 ### Backend:
