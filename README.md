@@ -14,9 +14,9 @@
 
 ![Configuracion Mongo](images/configMongo.png)
 
-A diferencia importante es el hecho de que SQL trabaja de manera **sincrona**, mientras que Mongo es **asincrono**.
+A diferencia importante es que SQL trabaja de manera **sincrona**, mientras que Mongo es **asincrono**.
 
-Como el constructor no puede ser asincrono, no realizamos la conexion dentro de este como en el modulo SQL, sino que
+Como el **constructor** no puede ser asincrono, no realizamos la conexion dentro de este como en el modulo SQL, sino que
 creamos una funcion asincrona que monte la conexion, para luego llamarla cuando se tenga que realizar alguna operación.
 
 ![Configuracion Mongo](images/constructor.png)
