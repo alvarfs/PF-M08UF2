@@ -14,7 +14,11 @@
 
 ![Configuracion Mongo](images/configMongo.png)
 
-## Cambios para la autenticación JWT:
+![Configuracion Mongo](images/constructor.png)
+
+
+
+## Cambios para la Autenticación JWT:
 ### Backend:
 - **controller/login.js:** Se encarga de verificar que el usuario/contraseña sean correctos, y genera un token.
 - **mw/auth.js:** Comprueba que el token dentro del **header Authorization** sea valido para realizar una operación.
