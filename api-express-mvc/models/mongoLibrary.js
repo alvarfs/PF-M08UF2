@@ -40,7 +40,6 @@ class Library {
     return result.deletedCount;
   }
   
-  
   async update(updBook) {
     await this.connect();
     const { title, author, year } = updBook;
