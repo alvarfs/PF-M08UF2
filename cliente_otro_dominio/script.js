@@ -5,6 +5,7 @@ window.onload = () => {
     
     // Añadimos al botón de submit del formulario un listener para enlazarlo a la función createBook
     document.querySelector('#createButton').addEventListener('click', createBook);
+    document.querySelector("#log-in").addEventListener("click", () => window.location.href = "login.html")
 }
 
 async function fetchBooks() {
