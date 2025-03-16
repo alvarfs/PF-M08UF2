@@ -1,7 +1,7 @@
 # PF-M08UF2
 
-<div style="display: flex; align-items: center;">
-  <img src="images/arquitectura.png" alt="Estructura" style="max-width: 40%; margin-right: 20px;">
+<div>
+  <img src="images/arquitectura.png" alt="Estructura" style="width: 40%; float: left; margin-right: 20px;">
   
   <div>
     <ul>
@@ -15,6 +15,7 @@
     </ul>
   </div>
 </div>
+
 
 ## Arquitectura:
 
