@@ -1,5 +1,21 @@
 # PF-M08UF2
 
+<div style="display: flex; align-items: center;">
+  <img src="images/arquitectura.png" alt="Estructura" style="max-width: 40%; margin-right: 20px;">
+  
+  <div>
+    <ul>
+      <li><strong>audios:</strong> Contiene los archivos de sonidos/música de la página web.</li>
+      <li><strong>fonts:</strong> Guarda las fuentes personalizadas para la página.</li>
+      <li><strong>icons:</strong> Almacena los iconos que utiliza la página.</li>
+      <li><strong>screenshots:</strong> Guarda las capturas para esta explicación sobre la página web.</li>
+      <li><strong>index.html:</strong> Es la landing principal. Contiene toda la estructura principal en HTML.</li>
+      <li><strong>script.js:</strong> Fichero JavaScript que se encarga de controlar las interacciones con la página web.</li>
+      <li><strong>styles.css:</strong> Define el diseño y la apariencia de la página.</li>
+    </ul>
+  </div>
+</div>
+
 ## Arquitectura:
 
 ![Estructura](images/arquitectura.png)
